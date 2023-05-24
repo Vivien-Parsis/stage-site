@@ -1,5 +1,5 @@
-
 import './App.css';
+import './darkmod.css';
 
 function App() {
   return (
