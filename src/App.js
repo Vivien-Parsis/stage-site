@@ -1,10 +1,21 @@
-import './App.css';
+import './style.css';
 import './darkmod.css';
-import Header from './component/header/header'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Header from './component/header/header';
+import Navigation from './component/header/navigation';
+
 function App() {
   return (
     <>
     <Header/>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigation/>}>
+          <Route index element={<>home</>}/>
+          <Route path="contact" element={<>contact</>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </>
   );
 }
