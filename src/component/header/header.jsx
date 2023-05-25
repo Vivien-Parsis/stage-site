@@ -1,10 +1,10 @@
-import Navbar from "./navbar"
+import Banderole from "./banderole"
 
 const Header = () => {
     return (        
         <>
         <div className="header">
-        <Navbar/>
+        <Banderole/>
         </div>
         </>
     )
