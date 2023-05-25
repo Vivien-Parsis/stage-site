@@ -8,6 +8,7 @@ function App() {
   return (
     <>
     <Header/>
+    <main>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigation/>}>
@@ -16,6 +17,7 @@ function App() {
         </Route>
       </Routes>
     </BrowserRouter>
+    </main>
     </>
   );
 }
