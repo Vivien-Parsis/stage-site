@@ -36,20 +36,32 @@ h1,p{
 nav{
   width: 100%;
   background-color: rgb(27, 9, 127);
+  padding:1% 1%;
+}
+nav a{
   text-decoration: none;
-  color:black;
-  padding:1%;
+  color:rgb(255, 255, 255);
+  border:1px white solid;
+  margin:0 .1%;
+  padding:2px;
+  border-radius: 3px;
+}
+
+nav a:hover{
+  color:aqua;
+  border:1px aqua solid;
 }
 main{
-  background-color: bisque;
   width: 100%;
-  height: 600px;
 }
 .main{
   width: 95%;
+  height: 800px;
+  background-color: bisque;
+  padding: 1%;
 }
-.root{
+main{
   display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
