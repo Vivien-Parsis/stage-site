@@ -4,3 +4,8 @@ body {
 h1,p{
   color:black;
 }
+
+.header, .navbar{
+  width: 100%;
+  background-color: red;
+}

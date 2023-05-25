@@ -1,16 +1,11 @@
 import './App.css';
 import './darkmod.css';
-import Calendar from 'react-calendar';
+import Header from './component/header/header'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>
-          Cabinet d'implantologie dentaire du Dr Jean-Charles Giunta
-        </h1>
-        <Calendar/>
-      </header>
-    </div>
+    <>
+    <Header/>
+    </>
   );
 }
 
