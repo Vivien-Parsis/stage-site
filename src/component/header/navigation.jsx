@@ -5,7 +5,10 @@ const Navigation = () => {
         <>
         <nav>
             <Link to="/"> Accueil </Link>
-            <Link to="/contact"> contact </Link>
+            <Link to="/cabinet"> Cabinet </Link>
+            <Link to="/equipe"> Equipe </Link>
+            <Link to="/traitement"> Traitement </Link>
+            <Link to="/contact"> Contact </Link>
         </nav>
         <Outlet/>
         </>
