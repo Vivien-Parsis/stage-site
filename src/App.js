@@ -13,11 +13,11 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Navigation/>}>
-          <Route index element={<>home</>}/>
-          <Route path="cabinet" element={<>cabinet</>}/>
-          <Route path="equipe" element={<>equipe</>}/>
-          <Route path="traitement" element={<>traitement</>}/>
-          <Route path="contact" element={<>contact</>}/>
+          <Route index element={<div className=".main">home</div>}/>
+          <Route path="cabinet" element={<div className=".main">cabinet</div>}/>
+          <Route path="equipe" element={<div className=".main">equipe</div>}/>
+          <Route path="traitement" element={<div className=".main">traitement</div>}/>
+          <Route path="contact" element={<div className=".main">contact</div>}/>
           <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>
