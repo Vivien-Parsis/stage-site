@@ -15,19 +15,25 @@
   src: url("./assets/font/Ubuntu-BoldItalic.ttf");
 }
 html{
-  font-family: ubuntu-regular, Arial;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  background-color: white;
   margin:0;
+}
+
+body, .main {
+  background-color: rgb(220, 219, 219);
+}
+footer,nav,.header{
+  background-color: rgb(134, 112, 255);
 }
 h1,p{
   color:black;
 }
-
 .header{
   width: 100%;
-  background-color: rgb(38, 0, 255);
+  display: flex;
+  flex-wrap: nowrap;
 }
 .header h1{
   margin:0;
@@ -35,8 +41,8 @@ h1,p{
 }
 nav{
   width: 100%;
-  background-color: rgb(27, 9, 127);
   padding:1% 1%;
+  border-top:2px black solid;
 }
 nav a{
   text-decoration: none;
@@ -55,13 +61,30 @@ main{
   width: 100%;
 }
 .main{
-  width: 95%;
   height: 800px;
-  background-color: bisque;
   padding: 1%;
 }
 main{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+footer{
+  width:100%;
+}
+#BackToTop{
+  position: fixed;
+  z-index: 99;
+  bottom:20px;
+  right:20px;
+  display:none;
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+}
+#logo-img{
+  background-color: rgb(240, 240, 240);
+  padding: 2px;
+  border: 1px black solid;
+  margin:.5%;
 }
