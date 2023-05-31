@@ -1,0 +1,146 @@
+
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(28, 28, 28);
+}
+body {
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color:rgb(37, 37, 37);
+  text-decoration: none;
+}
+body, .main {
+  background-color: rgb(238, 237, 237);
+}
+footer,nav,.header{
+  background-color: rgb(134, 112, 255);
+}
+h1,p{
+  color:black;
+}
+.header{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.header h1{
+  margin:0;
+  padding:1%;
+}
+nav{
+  width: 100%;
+  padding:1% 1%;
+  border-top:2px black solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+nav a{
+  border:1px rgb(33, 33, 33) solid;
+  margin:0 .5%;
+  padding:3px;
+  border-radius: 3px;
+}
+nav a:hover{
+  color:aqua;
+  border:1px aqua solid;
+}
+footer a:hover{
+  color:rgb(255, 0, 0);
+}
+main{
+  width: 100%;
+}
+.main{
+  height: 800px;
+  padding: 1%;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer{
+  width:100%;
+  padding:1% 0 0;
+  display:flex;
+  flex-wrap: wrap;
+}
+#BackToTop{
+  position: fixed;
+  z-index: 99;
+  bottom:20px;
+  right:20px;
+  display:none;
+  font-size: 2em;
+  color:rgb(0, 0, 0);
+  background-color: rgba(0,0,0,0);
+  border: 0;
+}
+
+#BackToTop img{
+  width:4vh;
+  padding:1vh;
+  aspect-ratio: 1/1;
+  background-color: rgba(197, 197, 197, 0.5);
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 3px #000000;
+}
+#logo-img{
+  background-color: rgb(240, 240, 240);
+  padding: 2px;
+  border: 3px black solid;
+  margin:.5%;
+  border-radius: 1vh;
+}
+footer div{
+  display: flex;
+  flex-wrap: wrap;
+  width:48%;
+  margin:0 1%;
+}
+footer div span{
+  width: 100%;
+  margin:.8% 0%;
+}
+#contact{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+#contact div{
+  width: 100%;
+}
+#formulaire,#calendrier{
+  margin:2% 0;
+}
+#form-contact li{
+  margin:0 0 1%;
+  list-style-type: '➤ ';
+}
+#form-contact{
+  padding:4px;
+  border: 2px black solid;
+  border-radius: 10px;
+  width: fit-content;
+}
+#required-input{
+  color:rgb(255, 64, 0);
+  font-weight: bolder;
+}
+.highlight{
+  color:rgb(6, 106, 72);
+  font-weight: 800;
+}
+#credit{
+  margin:2% 0 0;
+  padding:4px 0;
+  width:100%;
+  text-align: center;
+  background-color: rgb(35, 35, 35);
+  color:white;
+}
+#credit a{
+  color:white;
+}

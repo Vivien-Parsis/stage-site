@@ -1,0 +1,1 @@
+const Credit = () => {return(<span id="credit">code by <a rel="noreferrer" href="https://github.com/Vivien-Parsis" target="_blank">@VivienP</a></span>)};export default Credit;

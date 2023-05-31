@@ -1,0 +1,17 @@
+@media (prefers-color-scheme: dark) {
+    body, .main {
+        background-color: rgb(43, 43, 43);
+    }
+    footer,nav,.header{
+        background-color: rgb(53, 44, 102);
+      }
+    html,a{
+        color:rgb(255, 255, 255);
+    }
+    .react-calendar__month-view__weekdays__weekday react-calendar__month-view__weekdays__weekday--weekend,.react-calendar__month-view__weekdays__weekday{
+        color:black;
+    }
+    nav a,#form-contact{
+        border-color:rgb(255, 255, 255);
+    }
+}
