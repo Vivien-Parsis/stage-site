@@ -3,7 +3,7 @@ const Video = () => {
     return(
         <div id="home-video">
         <video controls src={presentation}></video>
-        <a className="button-link" href="./cabinet">Découvrez notre cabinet d'implantologie</a>
+        {/* <a className="button-link" href="/cabinet">Découvrez notre cabinet d'implantologie</a> */}
         
         </div>
     )
