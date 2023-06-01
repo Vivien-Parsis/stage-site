@@ -10,6 +10,9 @@ const Navigation = () => {
             <Link to="/traitement"> Traitement </Link>
             <Link to="/contact"> Contact </Link>
             <Link to="/reglement"> Reglement </Link>
+            <Link className="hidden-link" to="/article-1"></Link>
+            <Link className="hidden-link" to="/article-2"></Link>
+            <Link className="hidden-link" to="/article-3"></Link>
         </nav>
         <Outlet/>
         </>

@@ -330,6 +330,16 @@ footer div span{
   width: 100%;
   text-align: center;
 }
+.button-link{
+  color:black;
+  background-color: white;
+  border: 2px blue solid;
+  border-radius: 6px;
+  padding:2px 4px;
+}
+.hidden-link{
+  display:none;
+}
 .google-map{
   border:2px black solid;
 }

@@ -28,6 +28,9 @@ function App() {
           <Route path="traitement" element={<div className="main">traitement (wip)</div>}/>
           <Route path="contact" element={<div className="main"><Contact/></div>}/>
           <Route path="reglement" element={<div className="reglement">reglement (wip)</div>}/>
+          <Route path="article-1" element={<div>article-1 (wip)</div>}/>
+          <Route path="article-2" element={<div>article-2 (wip)</div>}/>
+          <Route path="article-3" element={<div>article-3 (wip)</div>}/>
           <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>

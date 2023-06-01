@@ -3,7 +3,7 @@ const Video = () => {
     return(
         <div id="home-video">
         <video controls src={presentation}></video>
-        <button>Découvrez notre cabinet d'implantologie</button>
+        <a className="button-link" href="https://stage-website.netlify.app/cabinet">Découvrez notre cabinet d'implantologie</a>
         </div>
     )
 }
