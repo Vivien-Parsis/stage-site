@@ -138,20 +138,33 @@ footer div span{
   align-content: center;
   align-items: center;
 }
-#adresse h3{
-  width: 100%;
+#acces{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+#adresse h3, #acces h3{
+  width: 100%;  
   text-align: center;
 }
-#adresse li{
+#adresse li,#acces li{
   list-style: '⮞ ';
   padding-bottom:5px;
   padding: left 10px;
   padding-right: 40px;
 }
-#adresse-liste{
+#adresse-liste,#acces-liste{
   border: 2px black solid;
   border-radius: 10px;
   padding:2px;  
+}
+#acces-liste{
+  padding-left:20%;
+  padding-right:20%;
 }
 #form-contact li{
   margin:0 0 1%;
@@ -215,6 +228,9 @@ footer div span{
 .bolder{
   font-weight: 700;
 }
+.underline{
+  text-decoration: underline;
+}
 #home-photo{
   width: 40%;
   display: flex;
@@ -228,7 +244,9 @@ footer div span{
   width: 40%;
   height:fit-content;
   margin:0 0 1%;
+  border:2px black solid; 
   box-shadow: 1px 1px 5px 1px #000000;
+  border-radius: 5px;
 }
 #home-photo button{
   margin:1% 0 0;
@@ -246,6 +264,9 @@ footer div span{
 #home-video video{
   width: 50%;
   margin:0 0 1%;
+  border:2px black solid; 
+  border-radius:3px;
+  box-shadow: 1px 1px 5px 1px #000000;
 }
 #home-video button{
   margin:1% 0 0;
@@ -294,6 +315,7 @@ footer div span{
 }
 #competence-guinta-photo img{
   box-shadow: 1px 1px 5px 1px #000000;
+  border-radius:5px;
 }
 #Home-Contact{
   width: 100%;
@@ -307,4 +329,7 @@ footer div span{
 #Home-Contact h3{
   width: 100%;
   text-align: center;
+}
+.google-map{
+  border:2px black solid;
 }

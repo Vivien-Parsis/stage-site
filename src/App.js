@@ -12,7 +12,7 @@ import ScrollToTop from './component/ScrollToTop';
 import Contact from './component/contact/contact';
 import Home from './component/home/home';
 import Competence from "./component/competence/competence";
-
+import Cabinet from "./component/cabinet/cabinet";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigation/>}>
           <Route index element={<div className="main"><Home/></div>}/>
-          <Route path="cabinet" element={<div className="main">cabinet (wip)</div>}/>
+          <Route path="cabinet" element={<div className="main"><Cabinet/></div>}/>
           <Route path="equipe" element={<div className="main"><Competence/></div>}/>
           <Route path="traitement" element={<div className="main">traitement (wip)</div>}/>
           <Route path="contact" element={<div className="main"><Contact/></div>}/>
