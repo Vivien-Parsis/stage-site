@@ -4,7 +4,7 @@ const Photo = () => {
     return (
         <div id="home-photo">
         <img alt="Dr Jean-Charles Giunta" src={photo}></img>
-        <a className="button-link" href="https://stage-website.netlify.app/equipe">Mes compétences et expertise</a>
+        <a className="button-link" href="/equipe">Mes compétences et expertise</a>
         </div>
     )
 }
