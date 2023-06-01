@@ -1,6 +1,7 @@
+import 'react-calendar/dist/Calendar.css';
 import './style/style.css';
 import './style/darkmod.css';
-import 'react-calendar/dist/Calendar.css';
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './component/header/header';
 import Navigation from './component/header/navigation';
